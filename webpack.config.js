@@ -53,9 +53,6 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HotModuleReplacementPlugin(),
-        new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, "public/index.html"), //we put the file that we created in public folder
-        }),
         new MiniCssExtractPlugin({
             filename: "styles.[contenthash].css",
         }),
