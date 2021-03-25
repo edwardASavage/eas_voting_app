@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import Seed from '../../public/seed'
+import Seed from '../seed'
 import Product from '../molecules/Product'
 
 
