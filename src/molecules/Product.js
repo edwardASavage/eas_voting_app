@@ -1,4 +1,5 @@
 import React from 'react';
+import Caret from '../atoms/Caret/Caret';
 
 const Product = (props) => {
 
@@ -14,7 +15,7 @@ const Product = (props) => {
             <div className='main'>
                 <div className='header'>
                     <a onClick={handleUpVote}>
-                        <i>#_#_#</i>
+                        <Caret/>
                     </a>
                     {props.votes}
                 </div>

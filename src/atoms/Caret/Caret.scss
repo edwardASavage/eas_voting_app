@@ -1,0 +1,10 @@
+.caret {
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(36, 40, 255);
+    rotate: 0.5turn;
+    svg {
+        width: 36px;
+        height: 36px;
+    }
+}
