@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import Seed from '../seed'
-import Product from '../molecules/Product'
+import Seed from '../../seed'
+import Product from '../../molecules/Product/Product'
 
 
 const ProductList = () => {
@@ -25,7 +25,7 @@ const ProductList = () => {
     }
 
     return (
-        <div>
+        <div className='container_product-list'>
             {
                 productsSorted.map((product) => (
                     <Product

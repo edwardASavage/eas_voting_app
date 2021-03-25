@@ -2,6 +2,10 @@ import React from 'react';
 
 const Image = (props) => {
     return (
-        <image Source={props.Source} className= 'image'></image>
+        <div className='image'>
+            <img src={props.Source}/>
+        </div>
     )
 }
+
+export default Image;

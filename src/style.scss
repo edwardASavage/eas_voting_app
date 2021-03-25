@@ -2,7 +2,13 @@
 @import './atoms/Image/Image.scss';
 @import './atoms/Text/Text.scss';
 
-.app {
-    margin: 1rem;
+@import './molecules/Product/Product.scss';
+
+@import './organisms/ProductList/ProductList.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }

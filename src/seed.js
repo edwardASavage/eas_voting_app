@@ -1,4 +1,4 @@
-import Daniel from '../public/images/avatars/daniel.jpg';
+import Daniel from '../public/images/avatars/elyse.png';
 import Kristy from '../public/images/avatars/kristy.png';
 import Veronika from '../public/images/avatars/veronika.jpg';
 import Molly from '../public/images/avatars/molly.png';

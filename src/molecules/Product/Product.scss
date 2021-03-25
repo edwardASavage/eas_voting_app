@@ -1,0 +1,45 @@
+.container_extra > div,
+.container_extra > .image,
+.header,
+.votes {
+    display: inline-block;
+}
+.product > .image,
+.product_content,
+.text_description {
+    display: block;
+}
+.product {
+    display: flex;
+}
+
+.product {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #000;
+}
+.product_content {
+    margin-left: 0.5rem;
+    flex: 1 1 auto;
+}
+.votes {
+    font-size: 1.2rem;
+    vertical-align: top;
+}
+.text_description {
+    margin-top: 0.5rem;
+}
+
+.container_product {
+    .image {
+        width: 150px;
+    }
+}
+.container_extra {
+    .image {
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+    }
+}
