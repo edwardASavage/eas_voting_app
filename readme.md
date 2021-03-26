@@ -11,10 +11,10 @@ on a `cli`, in the project directory, run `npm i` to install required packages.
 **About**
 This repo presents several modifications made to the "voting app" presented. Most significantly, there are no class based components here.
 
--   Removed class based components.
--   Removed create-react-app build.
+-   \- Removed class based components.
+-   \- Removed create-react-app build.
 
-*   Added functional components.
-*   Added custom webpack5 setup.
-*   Added Atomic Design principles.
-*   Converted SemanticUI classes to lightweight custom .scss.
+*   \+ Added functional components.
+*   \+ Added custom webpack5 setup.
+*   \+ Added Atomic Design principles.
+*   \+ Converted SemanticUI classes to lightweight custom .scss.
