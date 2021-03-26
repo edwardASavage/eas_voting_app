@@ -1,5 +1,28 @@
 .container_product-list {
-    display: block;
     margin: 0 auto;
     max-width: 723px;
+}
+
+.product {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.product_content {
+    margin-left: 0.5rem;
+}
+
+.text_description {
+    margin-top: 0.5rem;
+}
+
+.container_product {
+    .image {
+        width: 150px;
+    }
+}
+.container_extra {
+    .image {
+        width: 32px;
+        height: 32px;
+    }
 }

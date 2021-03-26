@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Seed from '../../seed'
 import Product from '../../molecules/Product/Product'
-
+import Headline from '../../atoms/Headline/Headline'
 
 const ProductList = () => {
     const [products, setProducts] = useState(Seed)
@@ -26,6 +26,7 @@ const ProductList = () => {
 
     return (
         <div className='container_product-list'>
+            <Headline>Top Voted Products</Headline>
             {
                 productsSorted.map((product) => (
                     <Product
